@@ -8,6 +8,6 @@
     border: none;
 
 }
-.btn-card:hover{
-    background-color: orange;
+#btn-card:hover{
+    background-color: rgb(247, 183, 64);
 }
