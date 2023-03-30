@@ -1,0 +1,13 @@
+.product{
+    position: relative;
+}
+.btn-card{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+
+}
+.btn-card:hover{
+    background-color: orange;
+}
