@@ -1,14 +1,13 @@
 import React from "react";
 
 const Cart = ({ cart }) => {
-  console.log(cart);
 
   let totalPrice = 0;
   let totalShipping = 0;
   let totalQuantity = 0;
   for (let product of cart) {
     product.quantity = product.quantity || 1;
-    totalPrice = totalPrice + product.price + product.quantity * product.quantity;
+    totalPrice = totalPrice + product.price * product.quantity;
     totalShipping = totalShipping + product.shipping;
     totalQuantity = totalQuantity + product.quantity;
   }
